@@ -1,0 +1,13 @@
+21 7 exec !="_supply1" !="_building1" !="_krypto1" !"_box1"
+
+22 7 addWeaponCargo !"clearMagazineCargoGlobal _box1;"  !"clearMagazineCargoGlobal _building1;"  !"clearMagazineCargoGlobal _krypto1;"  !"clearMagazineCargoGlobal _supply1;"
+
+25 7 addMagazineCargo !="_box1 addMagazineCargoGlobal" !="_building1 addMagazineCargoGlobal" !="_krypto1 addMagazineCargoGlobal" !="_supply1 addMagazineCargoGlobal"
+
+26 7 addItem !="_box1 additemcargoGlobal" !="_building1 additemcargoGlobal" !="_krypto1 additemcargoGlobal" !="_supply1 additemcargoGlobal"
+
+41 7 deleteMarker _markerID];"
+
+42 7 setMarker _markerID];"
+
+43 7 createMarker _markerID];"
