@@ -2,4 +2,3 @@
 [] execVM "food\supply_missions.sqf";
 [] execVM "building\building_missions.sqf";
 [] execVM "krypto\krypto_missions.sqf";
-

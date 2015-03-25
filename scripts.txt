@@ -1,4 +1,4 @@
-21 7 exec !="_supply1" !="_building1" !="_krypto1" !"_box1"
+21 7 exec !="_supply1" !="_building1" !="_krypto1" !"_box1" !="[] execVM "weapon\call_missions.sqf";" !="[] execVM "building\building_missions.sqf";" !="[] execVM "food\supply_missions.sqf";" !="[] execVM "krypto\krypto_missions.sqf";"
 
 22 7 addWeaponCargo !"clearMagazineCargoGlobal _box1;"  !"clearMagazineCargoGlobal _building1;"  !"clearMagazineCargoGlobal _krypto1;"  !"clearMagazineCargoGlobal _supply1;"
 
